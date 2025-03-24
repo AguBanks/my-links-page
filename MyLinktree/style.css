@@ -1,0 +1,114 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    transition: background 0.3s, color 0.3s;
+    background: white;
+    color: black;
+    padding: 20px; /* Adds spacing around content */
+}
+
+.container {
+    margin: 50px auto;
+    width: 80%; /* Increased width */
+    max-width: 600px; /* Allows better spread */
+}
+
+img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    transition: transform 0.3s;
+}
+
+h1 {
+    margin: 20px 0;
+    font-size: 24px; /* Slightly bigger */
+}
+
+button {
+    margin: 10px;
+    padding: 12px 20px;
+    cursor: pointer;
+    border: none;
+    background: #007bff;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 90%; /* Makes buttons spread out */
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.links {
+    margin-top: 20px; /* More spacing */
+}
+
+
+.links a:hover {
+    opacity: 0.8;
+}
+
+.dark-mode {
+    background: black;
+    color: white;
+}
+
+
+.links a {
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Facebook */
+.links .facebook {
+    background: #1877F2;
+}
+
+/* Twitter (X) */
+.links .twitter {
+    background: #55a3e8;
+}
+
+/* Instagram */
+.links .instagram {
+    background: #C13584;
+}
+
+/* LinkedIn */
+.links .linkedin {
+    background: #0A66C2;
+}
+
+/* Telegram */
+.links .telegram {
+    background: #0088CC;
+}
+
+/* WhatsApp */
+.links .whatsapp {
+    background: #25D366;
+}
+
+/* Medium */
+.links .medium {
+    background: #050d0a;
+}
+
+/* Hover Effect */
+.links a:hover {
+    opacity: 0.8;
+}
+
+.links a:hover {
+    opacity: 0.8; /* Makes it slightly transparent when hovered */
+    transform: scale(1.05); /* Makes the button slightly bigger */
+    transition: 0.3s;
+}
